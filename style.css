@@ -42,7 +42,7 @@
  .nav-links {
    gap: 2rem;
    list-style: none;
-   font-size: 1.5rem;
+   font-size: 1rem;
  }
 
  a {
@@ -54,12 +54,12 @@
  a:hover {
    color: grey;
    text-decoration: underline;
-   text-underline-offset: 1rem;
+   text-underline-offset: 0.5rem;
    text-decoration-color: rgb(181, 181, 181);
  }
 
  .logo {
-   font-size: 2rem;
+   font-size: 1.5rem;
  }
 
  .logo:hover {
@@ -305,6 +305,9 @@
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+
+  margin-top:1rem;
+  margin-bottom:1rem;
  }
 
  .section-container {
@@ -318,7 +321,9 @@
   margin: auto 0;
  }
 
-
+ .section_pic-container img{
+  border-radius:50%;
+ }
 
  #experience {
   position: relative;
